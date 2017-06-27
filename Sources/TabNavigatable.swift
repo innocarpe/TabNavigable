@@ -29,7 +29,7 @@ extension TabNavigatable where Self: UIViewController {
     }
   }
   
-  private var activeViewController: UIViewController? {
+  var activeViewController: UIViewController? {
     get { return associatedObject(forKey: &activeViewControllerKey) }
     set {
       let oldValue = activeViewController

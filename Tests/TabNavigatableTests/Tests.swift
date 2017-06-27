@@ -1,29 +1,46 @@
 import UIKit
 import XCTest
-import TabNavigatable
+
+@testable import TabNavigatable
 
 class Tests: XCTestCase {
+  fileprivate var tabBarViewController: TabBarViewController!
+  
+  override func setUp() {
+    super.setUp()
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    tabBarViewController = TabBarViewController()
+    tabBarViewController.viewControllers.append(UIViewController())
+    tabBarViewController.viewControllers.append(UIViewController())
+    tabBarViewController.viewControllers.append(UIViewController())
+  }
+  
+  func testTabNavigatable() {
+    XCTAssertNotNil(tabBarViewController)
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
+    tabBarViewController.changeActiveViewController(index: 0)
+    XCTAssertEqual(tabBarViewController.activeViewController, tabBarViewController.viewControllers[0])
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
+    tabBarViewController.changeActiveViewController(index: 1)
+    XCTAssertEqual(tabBarViewController.activeViewController, tabBarViewController.viewControllers[1])
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
+    tabBarViewController.changeActiveViewController(index: 2)
+    XCTAssertEqual(tabBarViewController.activeViewController, tabBarViewController.viewControllers[2])
+  }
+}
+
+fileprivate final class TabBarViewController: UIViewController, TabNavigatable {
+  var containerView: UIView! = UIView()
+  var viewControllers: [UIViewController]! = [UIViewController]()
+  
+  var tabIndex: Int {
+    get {
+      for (index, viewController) in viewControllers.enumerated() {
+        if viewController === activeViewController {
+          return index
         }
+      }
+      return -1
     }
-    
+  }
 }
