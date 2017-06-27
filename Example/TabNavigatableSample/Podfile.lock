@@ -1,0 +1,16 @@
+PODS:
+  - TabNavigatable (1.0.0)
+
+DEPENDENCIES:
+  - TabNavigatable (from `../../`)
+
+EXTERNAL SOURCES:
+  TabNavigatable:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  TabNavigatable: 9de76db899132ca637fa1b346b44245244b95f58
+
+PODFILE CHECKSUM: 012c7c92f781a190856d1f1da855d8ab32b5314a
+
+COCOAPODS: 1.2.1
