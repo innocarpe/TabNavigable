@@ -5,6 +5,36 @@
 [![Build Status](https://travis-ci.org/kwosu87/TabNavigatable.svg?branch=master)](https://travis-ci.org/kwosu87/TabNavigatable)
 [![Codecov](https://img.shields.io/codecov/c/github/kwosu87/TabNavigatable.svg)](https://codecov.io/gh/kwosu87/TabNavigatable/)
 
+## Example
+
+```swift
+class CustomTabBarViewController: UIViewController, TabNavigatable {
+  var containerView: UIView!
+  var viewControllers: [UIViewController]! = []
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    initViewControllers()
+  }
+  
+  private func initViewControllers() {
+    addViewController()
+    addViewController()
+    addViewController()
+    
+    changeActiveViewController(index: 0)
+  }
+  
+  private func addViewController() {
+    let viewController = YourTabViewController()
+    viewControllers.append(viewController)
+  }
+  
+  func tabButtonDidTap(index: Int) {
+    changeActiveViewController(index: index)
+  }
+}
+```
 
 ## Installation
 
