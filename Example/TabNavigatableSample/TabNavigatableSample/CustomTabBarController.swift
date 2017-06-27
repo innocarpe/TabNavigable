@@ -13,7 +13,7 @@ import TabNavigatable
 class CustomTabBarController: UIViewController, TabNavigatable {
 
   @IBOutlet weak var containerView: UIView!
-  var viewControllers: [UIViewController]! = [UIViewController]()
+  var viewControllers: [UIViewController]! = []
   
   override func viewDidLoad() {
     super.viewDidLoad()
