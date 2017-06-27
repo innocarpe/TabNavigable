@@ -21,7 +21,7 @@ private var activeViewControllerKey = "activeViewController"
 
 extension TabNavigatable where Self: UIViewController {
   
-  public func changeActiveViewController(to index: Int) {
+  public func changeActiveViewController(index: Int) {
     if index < viewControllers.count {
       activeViewController = viewControllers[index]
     } else {

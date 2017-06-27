@@ -26,7 +26,7 @@ class CustomTabBarController: UIViewController, TabNavigatable {
     addViewController(index: 1, backgroundColor: UIColor.orange)
     addViewController(index: 2, backgroundColor: UIColor.magenta)
     
-    changeActiveViewController(to: 0)
+    changeActiveViewController(index: 0)
   }
   
   private func addViewController(index: Int, backgroundColor: UIColor) {
@@ -40,15 +40,15 @@ class CustomTabBarController: UIViewController, TabNavigatable {
   }
 
   @IBAction func firstTabDidTap(_ sender: Any) {
-    changeActiveViewController(to: 0)
+    changeActiveViewController(index: 0)
   }
   
   @IBAction func secondTabDidTap(_ sender: Any) {
-    changeActiveViewController(to: 1)
+    changeActiveViewController(index: 1)
   }
   
   @IBAction func thirdTabDidTap(_ sender: Any) {
-    changeActiveViewController(to: 2)
+    changeActiveViewController(index: 2)
   }
 }
 
