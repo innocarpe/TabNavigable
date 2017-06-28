@@ -1,9 +1,9 @@
 //
 //  TabNavigatable.swift
-//  elemark-Care
+//  TabNavigatable
 //
-//  Created by Wooseong Kim on 2017. 6. 26..
-//  Copyright © 2017년 BBB Tech Inc. All rights reserved.
+//  Created by Wooseong Kim on 2017. 6. 26.
+//  Copyright © 2017 Wooseong Kim. All rights reserved.
 //
 
 import UIKit

@@ -7,8 +7,7 @@
 //
 import ObjectiveC
 
-public protocol AssociatedObjectStore {
-}
+public protocol AssociatedObjectStore {}
 
 extension AssociatedObjectStore {
   func associatedObject<T>(forKey key: UnsafeRawPointer) -> T? {
