@@ -32,15 +32,4 @@ class Tests: XCTestCase {
 fileprivate final class TabBarViewController: UIViewController, TabNavigatable {
   var containerView: UIView! = UIView()
   var viewControllers: [UIViewController]! = [UIViewController]()
-  
-  var tabIndex: Int {
-    get {
-      for (index, viewController) in viewControllers.enumerated() {
-        if viewController === activeViewController {
-          return index
-        }
-      }
-      return -1
-    }
-  }
 }
