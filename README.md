@@ -45,6 +45,14 @@ it, simply add the following line to your Podfile:
 pod "TabNavigatable"
 ```
 
+## Contribution
+
+For your convenience, execute the line below to generate xcodeproj.
+
+```console
+$ swift package generate-xcodeproj
+```
+    
 ## Author
 
 Wooseong Kim, kwosu87@me.com
