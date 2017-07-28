@@ -55,7 +55,7 @@ $ swift package generate-xcodeproj
     
 ## Author
 
-Wooseong Kim, kwosu87@me.com
+Wooseong Kim, innocarpe@gmail.com
 
 ## License
 
