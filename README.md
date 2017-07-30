@@ -2,7 +2,7 @@
 
 ![Swift](https://img.shields.io/badge/Swift-3.1-orange.svg)
 [![CocoaPods](http://img.shields.io/cocoapods/v/TabNavigatable.svg)](https://cocoapods.org/pods/TabNavigatable)
-[![Build Status](https://travis-ci.org/innocarpe/TabNavigatable.svg?branch=master)](https://travis-ci.org/kwosu87/TabNavigatable)
+[![Build Status](https://travis-ci.org/innocarpe/TabNavigatable.svg?branch=master)](https://travis-ci.org/innocarpe/TabNavigatable)
 [![Codecov](https://img.shields.io/codecov/c/github/innocarpe/TabNavigatable.svg)](https://codecov.io/gh/innocarpe/TabNavigatable/)
 
 ## Example
