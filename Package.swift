@@ -1,8 +1,14 @@
-// swift-tools-version:3.1
+// swift-tools-version:4.0
 
-import Foundation
 import PackageDescription
 
 let package = Package(
-  name: "TabNavigatable"
+  name: "TabNavigatable",
+  products: [
+    .library(name: "TabNavigatable", targets: ["TabNavigatable"]),
+  ],
+  targets: [
+    .target(name: "TabNavigatable"),
+    .testTarget(name: "TabNavigatableTests", dependencies: ["TabNavigatable"]),
+  ]
 )
