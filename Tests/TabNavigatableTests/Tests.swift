@@ -1,3 +1,4 @@
+#if os(iOS) || os(tvOS)
 import UIKit
 import XCTest
 
@@ -33,3 +34,4 @@ fileprivate final class TabBarViewController: UIViewController, TabNavigatable {
   var containerView: UIView! = UIView()
   var viewControllers: [UIViewController]! = [UIViewController]()
 }
+#endif

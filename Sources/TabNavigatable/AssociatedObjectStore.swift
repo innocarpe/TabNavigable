@@ -5,6 +5,8 @@
 //  Created by Suyeol Jeon on 14/04/2017.
 //  Copyright © 2017 Suyeol Jeon. All rights reserved.
 //
+
+#if !os(Linux)
 import ObjectiveC
 
 public protocol AssociatedObjectStore {}
@@ -18,3 +20,4 @@ extension AssociatedObjectStore {
     objc_setAssociatedObject(self, key, object, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
   }
 }
+#endif

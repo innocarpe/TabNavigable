@@ -6,6 +6,7 @@
 //  Copyright © 2017 Wooseong Kim. All rights reserved.
 //
 
+#if os(iOS) || os(tvOS)
 import UIKit
 
 // MARK: Protocol
@@ -68,3 +69,4 @@ extension TabNavigatable where Self: UIViewController {
     }
   }
 }
+#endif
