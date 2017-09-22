@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  TabNavigatableSample
+//  TabNavigableSample
 //
 //  Created by Wooseong Kim on 2017. 6. 27.
 //  Copyright © 2017 Wooseong Kim. All rights reserved.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-import TabNavigatable
+import TabNavigable
 
-class CustomTabBarController: UIViewController, TabNavigatable {
+class CustomTabBarController: UIViewController, TabNavigable {
 
   @IBOutlet weak var containerView: UIView!
   var viewControllers: [UIViewController]! = []
