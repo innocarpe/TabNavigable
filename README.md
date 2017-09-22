@@ -1,14 +1,14 @@
-# TabNavigatable
+# TabNavigable
 
 ![Swift](https://img.shields.io/badge/Swift-3.1-orange.svg)
-[![CocoaPods](http://img.shields.io/cocoapods/v/TabNavigatable.svg)](https://cocoapods.org/pods/TabNavigatable)
-[![Build Status](https://travis-ci.org/innocarpe/TabNavigatable.svg?branch=master)](https://travis-ci.org/innocarpe/TabNavigatable)
-[![Codecov](https://img.shields.io/codecov/c/github/innocarpe/TabNavigatable.svg)](https://codecov.io/gh/innocarpe/TabNavigatable/)
+[![CocoaPods](http://img.shields.io/cocoapods/v/TabNavigable.svg)](https://cocoapods.org/pods/TabNavigable)
+[![Build Status](https://travis-ci.org/innocarpe/TabNavigable.svg?branch=master)](https://travis-ci.org/innocarpe/TabNavigable)
+[![Codecov](https://img.shields.io/codecov/c/github/innocarpe/TabNavigable.svg)](https://codecov.io/gh/innocarpe/TabNavigable/)
 
 ## Example
 
 ```swift
-class CustomTabBarViewController: UIViewController, TabNavigatable {
+class CustomTabBarViewController: UIViewController, TabNavigable {
   var containerView: UIView!
   var viewControllers: [UIViewController]! = []
   
@@ -38,11 +38,11 @@ class CustomTabBarViewController: UIViewController, TabNavigatable {
 
 ## Installation
 
-TabNavigatable is available through [CocoaPods](http://cocoapods.org). To install
+TabNavigable is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "TabNavigatable"
+pod "TabNavigable"
 ```
 
 ## Contribution
@@ -59,4 +59,4 @@ Wooseong Kim, innocarpe@gmail.com
 
 ## License
 
-TabNavigatable is available under the MIT license. See the LICENSE file for more info.
+TabNavigable is available under the MIT license. See the LICENSE file for more info.
