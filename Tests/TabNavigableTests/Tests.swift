@@ -2,7 +2,7 @@
 import UIKit
 import XCTest
 
-@testable import TabNavigatable
+@testable import TabNavigable
 
 class Tests: XCTestCase {
   fileprivate var tabBarViewController: TabBarViewController!
@@ -16,7 +16,7 @@ class Tests: XCTestCase {
     tabBarViewController.viewControllers.append(UIViewController())
   }
   
-  func testTabNavigatable() {
+  func testTabNavigable() {
     XCTAssertNotNil(tabBarViewController)
     
     tabBarViewController.changeActiveViewController(index: 0)
@@ -30,7 +30,7 @@ class Tests: XCTestCase {
   }
 }
 
-fileprivate final class TabBarViewController: UIViewController, TabNavigatable {
+fileprivate final class TabBarViewController: UIViewController, TabNavigable {
   var containerView: UIView! = UIView()
   var viewControllers: [UIViewController]! = [UIViewController]()
 }

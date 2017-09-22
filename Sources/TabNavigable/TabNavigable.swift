@@ -1,6 +1,6 @@
 //
-//  TabNavigatable.swift
-//  TabNavigatable
+//  TabNavigable
+//  TabNavigable
 //
 //  Created by Wooseong Kim on 2017. 6. 26.
 //  Copyright © 2017 Wooseong Kim. All rights reserved.
@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: Protocol
 
-public protocol TabNavigatable: class, AssociatedObjectStore {
+public protocol TabNavigable: class, AssociatedObjectStore {
   var containerView: UIView! { get set }
   var viewControllers: [UIViewController]! { get set }
 }
@@ -20,7 +20,7 @@ public protocol TabNavigatable: class, AssociatedObjectStore {
 
 private var activeViewControllerKey = "activeViewController"
 
-extension TabNavigatable where Self: UIViewController {
+extension TabNavigable where Self: UIViewController {
   
   public func changeActiveViewController(index: Int) {
     if index < viewControllers.count {

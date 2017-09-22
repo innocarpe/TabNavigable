@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  TabNavigatableSample
+//  TabNavigableSample
 //
 //  Created by Wooseong Kim on 2017. 6. 27.
 //  Copyright © 2017 Wooseong Kim. All rights reserved.

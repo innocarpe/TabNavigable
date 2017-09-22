@@ -3,12 +3,12 @@
 import PackageDescription
 
 let package = Package(
-  name: "TabNavigatable",
+  name: "TabNavigable",
   products: [
-    .library(name: "TabNavigatable", targets: ["TabNavigatable"]),
+    .library(name: "TabNavigable", targets: ["TabNavigable"]),
   ],
   targets: [
-    .target(name: "TabNavigatable"),
-    .testTarget(name: "TabNavigatableTests", dependencies: ["TabNavigatable"]),
+    .target(name: "TabNavigable"),
+    .testTarget(name: "TabNavigableTests", dependencies: ["TabNavigable"]),
   ]
 )

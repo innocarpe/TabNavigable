@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C34BB22F5F8FF39D120AFC6 /* Pods_TabNavigatableSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E8699E0856AC50744F7B5E /* Pods_TabNavigatableSample.framework */; };
+		DDAEA94913C37614D893A95B /* Pods_TabNavigableSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4AF6A1A4C97D5E757367B3 /* Pods_TabNavigableSample.framework */; };
 		F27FA5421F021ADC00031402 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FA5411F021ADC00031402 /* TabViewController.swift */; };
 		F2B9FD201F020F2400F9037A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B9FD1F1F020F2400F9037A /* AppDelegate.swift */; };
 		F2B9FD221F020F2400F9037A /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B9FD211F020F2400F9037A /* CustomTabBarController.swift */; };
@@ -17,11 +17,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		002EE78BED18FA5D6AC39A6E /* Pods-TabNavigatableSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabNavigatableSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabNavigatableSample/Pods-TabNavigatableSample.release.xcconfig"; sourceTree = "<group>"; };
-		07E8699E0856AC50744F7B5E /* Pods_TabNavigatableSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabNavigatableSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB5584CF453BC61BDD8DDED2 /* Pods-TabNavigatableSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabNavigatableSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabNavigatableSample/Pods-TabNavigatableSample.debug.xcconfig"; sourceTree = "<group>"; };
+		2F4AF6A1A4C97D5E757367B3 /* Pods_TabNavigableSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabNavigableSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4597188F1EF6A3FF1B586B5F /* Pods-TabNavigableSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabNavigableSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabNavigableSample/Pods-TabNavigableSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E7A5FC3177107800F9F2CAC6 /* Pods-TabNavigableSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabNavigableSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabNavigableSample/Pods-TabNavigableSample.release.xcconfig"; sourceTree = "<group>"; };
 		F27FA5411F021ADC00031402 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
-		F2B9FD1C1F020F2400F9037A /* TabNavigatableSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabNavigatableSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B9FD1C1F020F2400F9037A /* TabNavigableSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabNavigableSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B9FD1F1F020F2400F9037A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2B9FD211F020F2400F9037A /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		F2B9FD241F020F2400F9037A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,41 +35,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C34BB22F5F8FF39D120AFC6 /* Pods_TabNavigatableSample.framework in Frameworks */,
+				DDAEA94913C37614D893A95B /* Pods_TabNavigableSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		91B4356AE4A9E636C23D3722 /* Pods */ = {
+		8CCA73CD97309732DE7DCAFA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB5584CF453BC61BDD8DDED2 /* Pods-TabNavigatableSample.debug.xcconfig */,
-				002EE78BED18FA5D6AC39A6E /* Pods-TabNavigatableSample.release.xcconfig */,
+				4597188F1EF6A3FF1B586B5F /* Pods-TabNavigableSample.debug.xcconfig */,
+				E7A5FC3177107800F9F2CAC6 /* Pods-TabNavigableSample.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F8B770E66761E2F6DE97AD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F4AF6A1A4C97D5E757367B3 /* Pods_TabNavigableSample.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F2B9FD131F020F2400F9037A = {
 			isa = PBXGroup;
 			children = (
-				F2B9FD1E1F020F2400F9037A /* TabNavigatableSample */,
+				F2B9FD1E1F020F2400F9037A /* TabNavigableSample */,
 				F2B9FD1D1F020F2400F9037A /* Products */,
-				91B4356AE4A9E636C23D3722 /* Pods */,
-				F89FEDD99C1962869AA4625F /* Frameworks */,
+				8CCA73CD97309732DE7DCAFA /* Pods */,
+				8F8B770E66761E2F6DE97AD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F2B9FD1D1F020F2400F9037A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2B9FD1C1F020F2400F9037A /* TabNavigatableSample.app */,
+				F2B9FD1C1F020F2400F9037A /* TabNavigableSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F2B9FD1E1F020F2400F9037A /* TabNavigatableSample */ = {
+		F2B9FD1E1F020F2400F9037A /* TabNavigableSample */ = {
 			isa = PBXGroup;
 			children = (
 				F2B9FD1F1F020F2400F9037A /* AppDelegate.swift */,
@@ -80,38 +88,30 @@
 				F2B9FD281F020F2400F9037A /* LaunchScreen.storyboard */,
 				F2B9FD2B1F020F2400F9037A /* Info.plist */,
 			);
-			path = TabNavigatableSample;
-			sourceTree = "<group>";
-		};
-		F89FEDD99C1962869AA4625F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				07E8699E0856AC50744F7B5E /* Pods_TabNavigatableSample.framework */,
-			);
-			name = Frameworks;
+			path = TabNavigableSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F2B9FD1B1F020F2400F9037A /* TabNavigatableSample */ = {
+		F2B9FD1B1F020F2400F9037A /* TabNavigableSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2B9FD2E1F020F2400F9037A /* Build configuration list for PBXNativeTarget "TabNavigatableSample" */;
+			buildConfigurationList = F2B9FD2E1F020F2400F9037A /* Build configuration list for PBXNativeTarget "TabNavigableSample" */;
 			buildPhases = (
-				54D8F1E71A0123312D5A394F /* [CP] Check Pods Manifest.lock */,
+				604CBD03ADB976BAC3E28E0A /* [CP] Check Pods Manifest.lock */,
 				F2B9FD181F020F2400F9037A /* Sources */,
 				F2B9FD191F020F2400F9037A /* Frameworks */,
 				F2B9FD1A1F020F2400F9037A /* Resources */,
-				8BC7527AD59DBE98AF89B77E /* [CP] Embed Pods Frameworks */,
-				43DD50209AF9CD9F26CB1529 /* [CP] Copy Pods Resources */,
+				F1E7A7D2C93C8AF8B1A293A3 /* [CP] Embed Pods Frameworks */,
+				040038C2A8838EA35561EE72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TabNavigatableSample;
+			name = TabNavigableSample;
 			productName = TabNavigatableSample;
-			productReference = F2B9FD1C1F020F2400F9037A /* TabNavigatableSample.app */;
+			productReference = F2B9FD1C1F020F2400F9037A /* TabNavigableSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F2B9FD171F020F2400F9037A /* Build configuration list for PBXProject "TabNavigatableSample" */;
+			buildConfigurationList = F2B9FD171F020F2400F9037A /* Build configuration list for PBXProject "TabNavigableSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2B9FD1B1F020F2400F9037A /* TabNavigatableSample */,
+				F2B9FD1B1F020F2400F9037A /* TabNavigableSample */,
 			);
 		};
 /* End PBXProject section */
@@ -163,7 +163,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		43DD50209AF9CD9F26CB1529 /* [CP] Copy Pods Resources */ = {
+		040038C2A8838EA35561EE72 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,10 +175,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabNavigatableSample/Pods-TabNavigatableSample-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabNavigableSample/Pods-TabNavigableSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		54D8F1E71A0123312D5A394F /* [CP] Check Pods Manifest.lock */ = {
+		604CBD03ADB976BAC3E28E0A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,29 +189,29 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TabNavigatableSample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TabNavigableSample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8BC7527AD59DBE98AF89B77E /* [CP] Embed Pods Frameworks */ = {
+		F1E7A7D2C93C8AF8B1A293A3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TabNavigatableSample/Pods-TabNavigatableSample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TabNavigatable/TabNavigatable.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-TabNavigableSample/Pods-TabNavigableSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TabNavigable/TabNavigable.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TabNavigatable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TabNavigable.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabNavigatableSample/Pods-TabNavigatableSample-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabNavigableSample/Pods-TabNavigableSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -356,10 +356,10 @@
 		};
 		F2B9FD2F1F020F2400F9037A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB5584CF453BC61BDD8DDED2 /* Pods-TabNavigatableSample.debug.xcconfig */;
+			baseConfigurationReference = 4597188F1EF6A3FF1B586B5F /* Pods-TabNavigableSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TabNavigatableSample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TabNavigableSample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wskim.TabNavigatableSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,10 +370,10 @@
 		};
 		F2B9FD301F020F2400F9037A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002EE78BED18FA5D6AC39A6E /* Pods-TabNavigatableSample.release.xcconfig */;
+			baseConfigurationReference = E7A5FC3177107800F9F2CAC6 /* Pods-TabNavigableSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TabNavigatableSample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TabNavigableSample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wskim.TabNavigatableSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2B9FD171F020F2400F9037A /* Build configuration list for PBXProject "TabNavigatableSample" */ = {
+		F2B9FD171F020F2400F9037A /* Build configuration list for PBXProject "TabNavigableSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2B9FD2C1F020F2400F9037A /* Debug */,
@@ -394,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2B9FD2E1F020F2400F9037A /* Build configuration list for PBXNativeTarget "TabNavigatableSample" */ = {
+		F2B9FD2E1F020F2400F9037A /* Build configuration list for PBXNativeTarget "TabNavigableSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2B9FD2F1F020F2400F9037A /* Debug */,
