@@ -1,6 +1,6 @@
 # TabNavigable
 
-![Swift](https://img.shields.io/badge/Swift-3.1-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)
 [![CocoaPods](http://img.shields.io/cocoapods/v/TabNavigable.svg)](https://cocoapods.org/pods/TabNavigable)
 [![Build Status](https://travis-ci.org/innocarpe/TabNavigable.svg?branch=master)](https://travis-ci.org/innocarpe/TabNavigable)
 [![Codecov](https://img.shields.io/codecov/c/github/innocarpe/TabNavigable.svg)](https://codecov.io/gh/innocarpe/TabNavigable/)
